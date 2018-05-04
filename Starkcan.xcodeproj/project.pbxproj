@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0899EE208F3EAE0006125E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0899E7208F3EAE0006125E /* Info.plist */; };
+		FA216F3D20983FEC00355694 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA216F3C20983FEC00355694 /* ExpandableHeaderView.swift */; };
+		FA22D55B209739180017E8E1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA22D559209739180017E8E1 /* SWRevealViewController.m */; };
+		FA22D55D209742F90017E8E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22D55C209742F90017E8E1 /* HomeViewController.swift */; };
+		FA26C06B208773C7001B5E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C06A208773C7001B5E07 /* AppDelegate.swift */; };
+		FA26C06D208773C7001B5E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C06C208773C7001B5E07 /* ViewController.swift */; };
+		FA26C070208773C7001B5E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26C06E208773C7001B5E07 /* Main.storyboard */; };
+		FA26C072208773C7001B5E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26C071208773C7001B5E07 /* Assets.xcassets */; };
+		FA26C075208773C7001B5E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26C073208773C7001B5E07 /* LaunchScreen.storyboard */; };
+		FA4DB0622092DFBF006951DB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DB0612092DFBF006951DB /* LoginViewController.swift */; };
+		FA504E5A209838E400757012 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA504E59209838E400757012 /* Section.swift */; };
+		FA66C7BC2093095D00550925 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66C7BB2093095D00550925 /* RegistrationViewController.swift */; };
+		FA7B1C84209752CB00B9C569 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B1C83209752CB00B9C569 /* SlideMenuViewController.swift */; };
+		FABE46F4208F374000B2649C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46EC208F373F00B2649C /* 7.jpg */; };
+		FABE46F5208F374000B2649C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46ED208F373F00B2649C /* 5.jpg */; };
+		FABE46F6208F374000B2649C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46EE208F373F00B2649C /* 2.jpg */; };
+		FABE46F7208F374000B2649C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46EF208F373F00B2649C /* 1.jpg */; };
+		FABE46F8208F374000B2649C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46F0208F373F00B2649C /* 6.jpg */; };
+		FABE46FA208F374000B2649C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46F2208F374000B2649C /* 3.jpg */; };
+		FABE46FB208F374000B2649C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FABE46F3208F374000B2649C /* 4.jpg */; };
+		FAD1060A208F338500E42190 /* Pods_Starkcan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD10609208F338500E42190 /* Pods_Starkcan.framework */; };
+		FAD1060C208F33D100E42190 /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD1060B208F33D100E42190 /* FSPagerView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA0899EC208F3EAE0006125E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA0899E8208F3EAE0006125E /* FSPagerView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F9580B761E5D9F0600C5B267;
+			remoteInfo = FSPagerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E5B7E291A8DB22F8C3EAD5A /* Pods-Starkcan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starkcan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starkcan/Pods-Starkcan.release.xcconfig"; sourceTree = "<group>"; };
+		9F421100CE781C76861B318B /* Pods-Starkcan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starkcan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starkcan/Pods-Starkcan.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0899E6208F3EAE0006125E /* FSPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPagerView.h; sourceTree = "<group>"; };
+		FA0899E7208F3EAE0006125E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0899E8208F3EAE0006125E /* FSPagerView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FSPagerView.xcodeproj; sourceTree = "<group>"; };
+		FA216F3C20983FEC00355694 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		FA216F4220989E1300355694 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		FA22D557209739170017E8E1 /* Starkcan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Starkcan-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA22D559209739180017E8E1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FA22D55A209739180017E8E1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FA22D55C209742F90017E8E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA26C067208773C6001B5E07 /* Starkcan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starkcan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26C06A208773C7001B5E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA26C06C208773C7001B5E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA26C06F208773C7001B5E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA26C071208773C7001B5E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA26C074208773C7001B5E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA26C076208773C7001B5E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4DB0612092DFBF006951DB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FA504E59209838E400757012 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		FA66C7BB2093095D00550925 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		FA7B1C83209752CB00B9C569 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		FABE46EC208F373F00B2649C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = Resources/7.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46ED208F373F00B2649C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Resources/5.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46EE208F373F00B2649C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = Resources/2.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46EF208F373F00B2649C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Resources/1.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46F0208F373F00B2649C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = Resources/6.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46F2208F374000B2649C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = Resources/3.jpg; sourceTree = SOURCE_ROOT; };
+		FABE46F3208F374000B2649C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Resources/4.jpg; sourceTree = SOURCE_ROOT; };
+		FAD10609208F338500E42190 /* Pods_Starkcan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pods_Starkcan.framework; sourceTree = "<group>"; };
+		FAD1060B208F33D100E42190 /* FSPagerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA26C064208773C6001B5E07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD1060C208F33D100E42190 /* FSPagerView.framework in Frameworks */,
+				FAD1060A208F338500E42190 /* Pods_Starkcan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B33D58F45F846C7A71318AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F421100CE781C76861B318B /* Pods-Starkcan.debug.xcconfig */,
+				9E5B7E291A8DB22F8C3EAD5A /* Pods-Starkcan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		897025839C89E9AB5EED356B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD1060B208F33D100E42190 /* FSPagerView.framework */,
+				FAD10609208F338500E42190 /* Pods_Starkcan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0899E4208F3EAE0006125E /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				FA0899E5208F3EAE0006125E /* FSPagerView */,
+				FA0899E8208F3EAE0006125E /* FSPagerView.xcodeproj */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		FA0899E5208F3EAE0006125E /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				FA0899E6208F3EAE0006125E /* FSPagerView.h */,
+				FA0899E7208F3EAE0006125E /* Info.plist */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		FA0899E9208F3EAE0006125E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0899ED208F3EAE0006125E /* FSPagerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA216F4020989DD500355694 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA216F4220989E1300355694 /* Lato-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FA26C05E208773C6001B5E07 = {
+			isa = PBXGroup;
+			children = (
+				FA216F4020989DD500355694 /* Font */,
+				FABE46EB208F371E00B2649C /* Resources */,
+				FA26C069208773C6001B5E07 /* Starkcan */,
+				FA26C068208773C6001B5E07 /* Products */,
+				FA0899E4208F3EAE0006125E /* FSPagerView */,
+				897025839C89E9AB5EED356B /* Frameworks */,
+				7B33D58F45F846C7A71318AC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FA26C068208773C6001B5E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C067208773C6001B5E07 /* Starkcan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA26C069208773C6001B5E07 /* Starkcan */ = {
+			isa = PBXGroup;
+			children = (
+				FA504E572098387900757012 /* ExpendableHeaderView */,
+				FA22D55A209739180017E8E1 /* SWRevealViewController.h */,
+				FA22D559209739180017E8E1 /* SWRevealViewController.m */,
+				FA26C06A208773C7001B5E07 /* AppDelegate.swift */,
+				FA26C06C208773C7001B5E07 /* ViewController.swift */,
+				FA26C06E208773C7001B5E07 /* Main.storyboard */,
+				FA26C071208773C7001B5E07 /* Assets.xcassets */,
+				FA26C073208773C7001B5E07 /* LaunchScreen.storyboard */,
+				FA26C076208773C7001B5E07 /* Info.plist */,
+				FA4DB0612092DFBF006951DB /* LoginViewController.swift */,
+				FA66C7BB2093095D00550925 /* RegistrationViewController.swift */,
+				FA22D557209739170017E8E1 /* Starkcan-Bridging-Header.h */,
+				FA22D55C209742F90017E8E1 /* HomeViewController.swift */,
+				FA7B1C83209752CB00B9C569 /* SlideMenuViewController.swift */,
+			);
+			path = Starkcan;
+			sourceTree = "<group>";
+		};
+		FA504E572098387900757012 /* ExpendableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				FA504E59209838E400757012 /* Section.swift */,
+				FA216F3C20983FEC00355694 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpendableHeaderView;
+			sourceTree = "<group>";
+		};
+		FABE46EB208F371E00B2649C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FABE46EF208F373F00B2649C /* 1.jpg */,
+				FABE46EE208F373F00B2649C /* 2.jpg */,
+				FABE46F2208F374000B2649C /* 3.jpg */,
+				FABE46F3208F374000B2649C /* 4.jpg */,
+				FABE46ED208F373F00B2649C /* 5.jpg */,
+				FABE46F0208F373F00B2649C /* 6.jpg */,
+				FABE46EC208F373F00B2649C /* 7.jpg */,
+			);
+			name = Resources;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA26C066208773C6001B5E07 /* Starkcan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26C079208773C7001B5E07 /* Build configuration list for PBXNativeTarget "Starkcan" */;
+			buildPhases = (
+				02A8CF71E16E644464164FC9 /* [CP] Check Pods Manifest.lock */,
+				FA26C063208773C6001B5E07 /* Sources */,
+				FA26C064208773C6001B5E07 /* Frameworks */,
+				FA26C065208773C6001B5E07 /* Resources */,
+				109D012C5B4999E3DED9F567 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starkcan;
+			productName = Starkcan;
+			productReference = FA26C067208773C6001B5E07 /* Starkcan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA26C05F208773C6001B5E07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Starkcan;
+				TargetAttributes = {
+					FA26C066208773C6001B5E07 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA26C062208773C6001B5E07 /* Build configuration list for PBXProject "Starkcan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA26C05E208773C6001B5E07;
+			productRefGroup = FA26C068208773C6001B5E07 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FA0899E9208F3EAE0006125E /* Products */;
+					ProjectRef = FA0899E8208F3EAE0006125E /* FSPagerView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FA26C066208773C6001B5E07 /* Starkcan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FA0899ED208F3EAE0006125E /* FSPagerView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FSPagerView.framework;
+			remoteRef = FA0899EC208F3EAE0006125E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA26C065208773C6001B5E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABE46FB208F374000B2649C /* 4.jpg in Resources */,
+				FABE46F6208F374000B2649C /* 2.jpg in Resources */,
+				FA26C075208773C7001B5E07 /* LaunchScreen.storyboard in Resources */,
+				FABE46F8208F374000B2649C /* 6.jpg in Resources */,
+				FABE46F5208F374000B2649C /* 5.jpg in Resources */,
+				FA26C072208773C7001B5E07 /* Assets.xcassets in Resources */,
+				FABE46FA208F374000B2649C /* 3.jpg in Resources */,
+				FA26C070208773C7001B5E07 /* Main.storyboard in Resources */,
+				FA0899EE208F3EAE0006125E /* Info.plist in Resources */,
+				FABE46F4208F374000B2649C /* 7.jpg in Resources */,
+				FABE46F7208F374000B2649C /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A8CF71E16E644464164FC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Starkcan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		109D012C5B4999E3DED9F567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Starkcan/Pods-Starkcan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Starkcan/Pods-Starkcan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA26C063208773C6001B5E07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4DB0622092DFBF006951DB /* LoginViewController.swift in Sources */,
+				FA216F3D20983FEC00355694 /* ExpandableHeaderView.swift in Sources */,
+				FA26C06D208773C7001B5E07 /* ViewController.swift in Sources */,
+				FA22D55B209739180017E8E1 /* SWRevealViewController.m in Sources */,
+				FA504E5A209838E400757012 /* Section.swift in Sources */,
+				FA66C7BC2093095D00550925 /* RegistrationViewController.swift in Sources */,
+				FA7B1C84209752CB00B9C569 /* SlideMenuViewController.swift in Sources */,
+				FA26C06B208773C7001B5E07 /* AppDelegate.swift in Sources */,
+				FA22D55D209742F90017E8E1 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA26C06E208773C7001B5E07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26C06F208773C7001B5E07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA26C073208773C7001B5E07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26C074208773C7001B5E07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA26C077208773C7001B5E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA26C078208773C7001B5E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA26C07A208773C7001B5E07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F421100CE781C76861B318B /* Pods-Starkcan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42998TYGS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Starkcan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtier.Starkcan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Starkcan/Starkcan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA26C07B208773C7001B5E07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5B7E291A8DB22F8C3EAD5A /* Pods-Starkcan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42998TYGS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Starkcan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtier.Starkcan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Starkcan/Starkcan-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA26C062208773C6001B5E07 /* Build configuration list for PBXProject "Starkcan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26C077208773C7001B5E07 /* Debug */,
+				FA26C078208773C7001B5E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA26C079208773C7001B5E07 /* Build configuration list for PBXNativeTarget "Starkcan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26C07A208773C7001B5E07 /* Debug */,
+				FA26C07B208773C7001B5E07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA26C05F208773C6001B5E07 /* Project object */;
+}
